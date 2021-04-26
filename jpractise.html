@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Page</title>
+	<link rel="icon" type="text/css" href="image.png">
+	<style >
+		body{
+			background-image: url(sback.jpg); 
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+	<div id="login">
+		<form action="verifysignup.php" method="post">
+		user name:<input type="text" id="uname" name="name"></br>
+		password:<input type="password" id="password" name="pass"></br>
+		<input type="submit" name="login" value="log in">
+		<input type="button" value="register" onclick="showsignup()">
+		</form>
+	</div>
+	<div id="signup">
+		<form action="login.php" method="post">
+		user name:<input type="text" id="uname" name="name"></br>
+		password:<input type="password" id="password" name="pass"></br>
+		email:<input type="email" id="uname" name="name"></br>
+		<input type="submit" name="login" value="log in">
+		<input type="button" value="register" onclick="showsignup()">
+		</form>
+	</div>
+	<div id="signup">
+		
+	</div>
+</body>
+</html>
